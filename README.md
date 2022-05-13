@@ -19,7 +19,7 @@ Identificamos el nombre de la interfaz (eth0, wlan0, etc) y la dirección mac de
 
 # Paso 3
 Abrimos el archivo python (mac_changer.py) escribiendo lo siguiente:
-sudo python mac_changer.py -i "interfaz" -m "nueva dirección mac" ó sudo python mac_changer.py --interface "interfaz" --mac "nueva dirección mac"
+## sudo python mac_changer.py -i "interfaz" -m "nueva dirección mac"
 
 # Paso 4
 Verifica que la dirección mac cambia usando el comando "ifconfig"
