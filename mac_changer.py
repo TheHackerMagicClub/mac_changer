@@ -37,6 +37,8 @@ def change_mac(interface, new_mac):
     subprocess.call(["ifconfig", interface, "up"])
 
     print("[+] La dirección MAC de " + interface + " ahora es " + new_mac)
+    
+    print("[*]Facebook: @TheHackerMagicClub   [*]YouTube: The Hacker Magic Club   [*]THMC TEAM")
 
 
 print("xxx   xxx xxxxxx xxxxxx      xxxxxx xx  xx xxxxxx xxx   xx xxxxxx xxxxxx xxxxxx")
@@ -45,7 +47,6 @@ print("xx xxx xx xxxxxx xx     xxxx xx     xxxxxx xxxxxx xx xx xx xx xxx xxxxx  
 print("xx  x  xx xx  xx xx          xx     xx  xx xx  xx xx  xxxx xx  xx xx     xx xx") 
 print("xx     xx xx  xx xxxxxx      xxxxxx xx  xx xx  xx xx   xxx xxxxxx xxxxxx xx  xx")
 
-print("[*]Facebook: @TheHackerMagicClub   [*]YouTube: The Hacker Magic Club   [*]THMC TEAM")
 
 options = get_arguments()
 change_mac(options.interface,options.new_mac)
