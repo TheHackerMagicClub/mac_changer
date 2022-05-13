@@ -37,8 +37,9 @@ def change_mac(interface, new_mac):
     subprocess.call(["ifconfig", interface, "up"])
 
     print("[+] La dirección MAC de " + interface + " ahora es " + new_mac)
-    
-    print(" [***]Facebook: @TheHackerMagicClub   [***]YouTube: The Hacker Magic Club   [***]THMC TEAM")
+    print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+    print("[***] Facebook: @TheHackerMagicClub   [***] YouTube: The Hacker Magic Club   [***] THMC TEAM")
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 
 print("xxx   xxx xxxxxx xxxxxx      xxxxxx xx  xx xxxxxx xxx   xx xxxxxx xxxxxx xxxxxx")
