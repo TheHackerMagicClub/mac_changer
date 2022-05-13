@@ -38,7 +38,7 @@ def change_mac(interface, new_mac):
 
     print("[+] La dirección MAC de " + interface + " ahora es " + new_mac)
     
-    print("[*]Facebook: @TheHackerMagicClub   [*]YouTube: The Hacker Magic Club   [*]THMC TEAM")
+    print(" [***]Facebook: @TheHackerMagicClub   [***]YouTube: The Hacker Magic Club   [***]THMC TEAM")
 
 
 print("xxx   xxx xxxxxx xxxxxx      xxxxxx xx  xx xxxxxx xxx   xx xxxxxx xxxxxx xxxxxx")
